@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.fundo{
+  background: linear-gradient(43deg,#c42a96 ,#61adc4,#c9ba78);
+  background-size: 400% 400%;
+  animation: anime 10s ease-in-out infinite;
+  position: relative;
+}
+@keyframes anime{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 50% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
